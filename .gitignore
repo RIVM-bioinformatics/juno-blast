@@ -1,0 +1,14 @@
+# Folders to ignore
+output/
+bin/__pycache__/
+.snakemake/
+.ipynb_checkpoints/
+__pycache__/
+db/
+db_full/
+db_v4/
+
+
+# Files to ignore
+config/user_parameters.yaml
+config/sample_sheet.yaml

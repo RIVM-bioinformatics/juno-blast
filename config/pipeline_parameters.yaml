@@ -1,0 +1,8 @@
+# Resources
+threads:
+  blast: 6
+mem_mb:
+  blast: 16000
+
+# Pipeline parameters (not taken from user)
+
