@@ -1,4 +1,4 @@
-name: juno-blast
+name: juno_blast
 channels:
   - anaconda
   - bioconda
