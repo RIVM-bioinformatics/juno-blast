@@ -1,7 +1,7 @@
 <div align="center">
-    <h1>Automated BLASTing from fasta files.</h1>
+    <h1>Juno-blast</h1>
     <br />
-    <h2>Tool subtitle</h2>
+    <h2>Automated BLASTing from fasta files.</h2>
     <br />
     <img src="https://via.placeholder.com/150" alt="pipeline logo">
 </div>
