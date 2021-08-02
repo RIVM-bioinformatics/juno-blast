@@ -4,9 +4,6 @@ Author(s): Alejandra Hernandez-Segura
 Organization: Rijksinstituut voor Volksgezondheid en Milieu (RIVM)
 Department: Infektieziekteonderzoek, Diagnostiek en Laboratorium Surveillance (IDS), Bacteriologie (BPD)
 Date: 17-06-2021
-Documentation: 
-Snakemake rules (in order of execution):
-    1. BLAST
 """
 #################################################################################
 ##### Import config file, sample_sheet and set output folder names          #####

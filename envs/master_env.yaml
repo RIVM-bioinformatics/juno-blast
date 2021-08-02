@@ -8,12 +8,10 @@ channels:
 dependencies:
   - mamba
   - snakemake==6.2.1
-  - blast=2.11.0
+  - blast==2.11.0
   - drmaa==0.7.9
-  - xlrd==1.2.0
   - git
   - pip==19.2.3
   - pandas==1.1.0
-  - unittest2
   - pip:
-    - PyYAML==5.4.1
+    - "--editable=git+https://github.com/RIVM-bioinformatics/base_juno_pipeline.git@v0.1.0#egg=Juno-bacteriology-pipelines"
