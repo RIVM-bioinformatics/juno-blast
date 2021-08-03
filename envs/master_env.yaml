@@ -14,4 +14,4 @@ dependencies:
   - pip==19.2.3
   - pandas==1.1.0
   - pip:
-    - "--editable=git+https://github.com/RIVM-bioinformatics/base_juno_pipeline.git@v0.1.0#egg=Juno-bacteriology-pipelines"
+    - "--editable=git+https://github.com/RIVM-bioinformatics/base_juno_pipeline.git@v0.1.1#egg=base_juno_pipeline"

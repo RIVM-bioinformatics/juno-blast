@@ -30,8 +30,6 @@ rule run_blast:
         assembly = lambda wildcards: SAMPLES[wildcards.sample]["assembly"]
     output:
         asn = OUT + "/{sample}_blastresults.asn"
-    # conda:
-    #     "../../envs/master_env.yaml"
     log:
         OUT + "/log/blast_{sample}.log"
     benchmark:

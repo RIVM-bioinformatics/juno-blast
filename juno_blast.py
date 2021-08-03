@@ -10,10 +10,7 @@ Date: 17-06-2021
 # Dependencies
 import argparse
 import base_juno_pipeline
-import pandas as pd
 import pathlib
-import subprocess
-from sys import path
 import yaml
 
 class JunoBlastRun():
