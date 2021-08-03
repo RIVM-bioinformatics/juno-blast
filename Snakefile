@@ -38,12 +38,6 @@ include: "bin/rules/run_blast.smk"
 #@####              Finalize pipeline (error/success)                        #####
 #@################################################################################
 
-onerror:
-    shell("""
-        echo -e "Something went wrong with Juno-typing pipeline. Please check the logging files in {OUT}/log/"
-        """)
-
-
 onsuccess:
     shell("""
         echo -e "\tGenerating Snakemake report..."

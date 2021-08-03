@@ -48,8 +48,8 @@ class JunoBlastRun():
         self.useconda = True
         self.usesingularity = False
         self.singularityargs = ""
-        self.user_parameters = pathlib.Path("config/user_parameters.yaml")
-        self.fixed_parameters = pathlib.Path('config/pipeline_parameters.yaml')
+        self.user_parameters = pathlib.Path('config', 'user_parameters.yaml')
+        self.fixed_parameters = pathlib.Path('config', 'user_parameters.yaml')
         self.extra_software_versions = pathlib.Path('config/extra_software_versions.yaml')
         self.output_dir = output_dir
         self.restarttimes = 0       
@@ -57,8 +57,7 @@ class JunoBlastRun():
         self.startup = self.start_pipeline()
 
         # Parse arguments specific from the user
-        if not unlock and not dryrun:
-            self.user_params = self.write_userparameters()
+        self.user_params = self.write_userparameters()
         
         # Run snakemake
         snakemake_run = base_juno_pipeline.RunSnakemake(pipeline_name = self.pipeline_info['pipeline_name'],
