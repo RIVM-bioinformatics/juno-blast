@@ -136,7 +136,7 @@ if __name__ == '__main__':
         type = pathlib.Path,
         required = False,
         metavar = "DIR",
-        default = "/mnt/db/juno/blast",
+        default = "/mnt/db/Jovian/NT_database",
         help = "Relative or absolute path to the directory that contains the databases for all the tools used in this pipeline or where they should be downloaded. Default is: /mnt/db/juno/blast",
     )
     parser.add_argument(

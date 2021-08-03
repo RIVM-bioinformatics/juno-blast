@@ -52,5 +52,4 @@ blastn -db {params.db_dir}/nt \
         -culling_limit 10 \
         -num_threads {threads} > {log}
         """
-# blastn -query {input.assembly} -db {params.db_dir}/nt -outfmt 11 -out {output} -num_threads {threads} > {log}
-# -max_target_seqs {params.max_target_seqs} \
+

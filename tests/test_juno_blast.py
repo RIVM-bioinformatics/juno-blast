@@ -49,7 +49,7 @@ class TestJunoBlastDryRun(unittest.TestCase):
 
 
 
-@unittest.skipIf(not pathlib.Path('/mnt/db/juno/blast/').exists(),
+@unittest.skipIf(not pathlib.Path('/mnt/db/Jovian/NT_database').exists(),
                      "Skipped in non-RIVM environments")
 class TestJunoBlastPipeline(unittest.TestCase):
     """Testing the JunoBlast class (code specific for this pipeline)"""
@@ -64,7 +64,7 @@ class TestJunoBlastPipeline(unittest.TestCase):
         """Testing the pipeline runs properly in test data"""
         output_dir = pathlib.Path('test_output')
         juno_blast_run = juno_blast.JunoBlastRun(input_dir = 'tests/sample_test', 
-                                    db_dir = "/mnt/db/juno/blast",
+                                    db_dir = "/mnt/db/Jovian/NT_database",
                                     local = False,
                                     cores = 6,
                                     output_dir = output_dir,
