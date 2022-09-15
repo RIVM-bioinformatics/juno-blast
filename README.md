@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Juno-blast</h1>
+    <h1>Juno-Blast</h1>
     <br />
     <h2>Automated BLASTing from fasta files.</h2>
     <br />
@@ -29,14 +29,14 @@ This is a short pipeline that takes (multi) fasta files as input containing one 
 1. Clone the repository:
 
 ```
-git clone https://github.com/RIVM-bioinformatics/Juno_blast.git
+git clone https://github.com/RIVM-bioinformatics/juno-blast.git
 ```
 Alternatively, you can download it manually as a zip file (you will need to unzip it then).
 
 2. Enter the directory with the pipeline and install the master environment:
 
 ```
-cd Juno_blast
+cd juno-blast
 conda env create -f envs/master_env.yaml
 ```
 
@@ -83,11 +83,11 @@ python juno_blast.py -i my_input_files -o my_results --db_dir my_db_dir --local 
 ## Issues  
 
 * All default values have been chosen to work with the RIVM Linux environment, therefore, there might not be applicable to other environments (although they should work with the appropriate arguments/parameters).
-* Any issue can be reported in the [Issues section](https://github.com/RIVM-bioinformatics/Juno_blast/issues) of this repository.
+* Any issue can be reported in the [Issues section](https://github.com/RIVM-bioinformatics/juno-blast/issues) of this repository.
 
 ## Future ideas for this pipeline
 
-* Suggestions welcome at the [Issues section](https://github.com/RIVM-bioinformatics/Juno_blast/issues) of this repository.
+* Suggestions welcome at the [Issues section](https://github.com/RIVM-bioinformatics/juno-blast/issues) of this repository.
 
 ## License
 
