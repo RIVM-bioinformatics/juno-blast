@@ -1,10 +1,9 @@
 name: juno_blast
 channels:
-  - anaconda
   - bioconda
   - biocore
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - mamba
   - snakemake==6.2.1
