@@ -9,8 +9,8 @@ dependencies:
   - snakemake==6.2.1
   - blast==2.11.0
   - drmaa==0.7.9
-  - git
-  - pip==19.2.3
+  - git>=2.39
+  - pip>=21.2
   - pandas==1.1.0
   - pip:
     - "--editable=git+https://github.com/RIVM-bioinformatics/base_juno_pipeline.git@v0.1.1#egg=base_juno_pipeline"
